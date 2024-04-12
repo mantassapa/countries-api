@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+body{
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.country_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.country_card{
+    background-color: blueviolet;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid;
 }
-
-.App-link {
-  color: #61dafb;
+.country_card>img{
+    width: 300px;
+    height: 180px;
+    border-bottom: 1px solid;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.more_info{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    overflow: hidden;
+    background-color: rgba(91, 0, 130, 0.479);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.more_info>img{
+    width: 600px;
+    height: 400px;
+}
+.more_info>button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
