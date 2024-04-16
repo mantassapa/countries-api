@@ -12,7 +12,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    min-height: 100vh;
+    margin-bottom: 50px;
 }
 .country_card{
     background-color: blueviolet;
@@ -62,6 +65,7 @@ footer{
     height: 150px;
     background-color: blueviolet;
     text-align: center;
+
 }
 footer>h4{
     margin-top: 20px;
